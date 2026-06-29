@@ -1,8 +1,10 @@
- 🎬 CineStream Content Analytics Dashboard
+ #🎬 CineStream Content Analytics Dashboard
 
 An interactive **Streamlit dashboard** developed to analyze the performance of CineStream OTT content. This project transforms raw streaming data into meaningful business insights using interactive filters, KPI cards, and data visualizations.
 
 ---
+
+dashboard.png
 
 ## 🌐 Live Demo
 
