@@ -1,8 +1,12 @@
-<img width="686" height="885" alt="image" src="https://github.com/user-attachments/assets/eb307645-f3c8-4ce7-bb19-acfdabe2e590" /># 🎬 CineStream Content Analytics Dashboard
+ 🎬 CineStream Content Analytics Dashboard
 
 An interactive **Streamlit dashboard** developed to analyze the performance of CineStream OTT content. This project transforms raw streaming data into meaningful business insights using interactive filters, KPI cards, and data visualizations.
 
 ---
+
+## 🌐 Live Demo
+
+https://cinestreamapp-ubjyafvnbz5g7qyk2yl9p4.streamlit.app/
 
 # 📖 Project Overview
 
@@ -106,34 +110,9 @@ The dataset contains approximately **520 OTT titles** with information about:
 ### Module 7
 ✔ GitHub Repository, Deployment & Report
 
----
-
-# 📸 Dashboard Preview
-
-### Overview Tab
-
-![Uploading image.png
 
 
----
 
-### Genres & Languages
-
-*(Add Screenshot Here)*
-
----
-
-### Money Analysis
-
-*(Add Screenshot Here)*
-
----
-
-### Quality Alerts
-
-*(Add Screenshot Here)*
-
----
 
 
 
