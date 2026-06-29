@@ -168,12 +168,7 @@ with st.container():
 st.markdown("---")
 
 
-tab1, tab2, tab3, tab4 = st.tabs([
-    "📋 Overview",
-    "🌐 Genres & Languages",
-    "💰 Money",
-    "🚨 Quality Alerts"
-])
+tab1, tab2, tab3, tab4 = st.tabs(["📋 Overview","🌐 Genres & Languages","💰 Money","🚨 Quality Alerts"])
 
 
 with tab1:
@@ -182,14 +177,7 @@ with tab1:
     st.subheader("Titles Added per Month")
 
     monthly = (
-        filtered.dropna(subset=["AddedDate"])
-        .assign(
-            Month=lambda x: x["AddedDate"].dt.to_period("M").astype(str)
-        )
-        .groupby("Month")
-        .size()
-        .rename("Count")
-    )
+        filtered.dropna(subset=["AddedDate"]).assign(  Month=lambda x: x["AddedDate"].dt.to_period("M").astype(str)).groupby("Month").size().rename("Count"))
 
     st.line_chart(monthly)
 
@@ -198,11 +186,7 @@ with tab1:
   
     st.subheader("Titles by Content Type")
 
-    type_counts = (
-        filtered["Type"]
-        .value_counts()
-        .rename("Count")
-    )
+    type_counts = ( filtered["Type"].value_counts().rename("Count"))
 
     st.bar_chart(type_counts)
 
