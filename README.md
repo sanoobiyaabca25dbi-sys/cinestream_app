@@ -2,6 +2,8 @@
 
 An interactive **Streamlit dashboard** developed to analyze the performance of CineStream OTT content. This project transforms raw streaming data into meaningful business insights using interactive filters, KPI cards, and data visualizations.
 
+<img width="456" height="588" alt="dashboard" src="https://github.com/user-attachments/assets/9649cef4-018f-4097-a52c-604158d4964e" />
+
 ---
 
 
